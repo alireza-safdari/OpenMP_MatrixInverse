@@ -1,0 +1,199 @@
+TEST 1
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+   _OPENMP='201511'
+  [host] OMP_CANCELLATION='FALSE'
+  [host] OMP_DEFAULT_DEVICE='0'
+  [host] OMP_DISPLAY_ENV='TRUE'
+  [host] OMP_DYNAMIC='FALSE'
+  [host] OMP_MAX_ACTIVE_LEVELS='2147483647'
+  [host] OMP_MAX_TASK_PRIORITY='0'
+  [host] OMP_NESTED='FALSE'
+  [host] OMP_NUM_THREADS='1'
+  [host] OMP_PLACES: value is not defined
+  [host] OMP_PROC_BIND='false'
+  [host] OMP_SCHEDULE='static'
+  [host] OMP_STACKSIZE='4M'
+  [host] OMP_THREAD_LIMIT='2147483647'
+  [host] OMP_WAIT_POLICY='PASSIVE'
+OPENMP DISPLAY ENVIRONMENT END
+
+
+From process # 0 out of 1!
+End of testing number of threads!
+
+
+testing for n = 15
+iteration 0 : time it took 0.000056
+iteration 1 : time it took 0.000005
+iteration 2 : time it took 0.000003
+iteration 3 : time it took 0.000004
+iteration 4 : time it took 0.000003
+
+testing for n = 30
+iteration 0 : time it took 0.000474
+iteration 1 : time it took 0.000020
+iteration 2 : time it took 0.000018
+iteration 3 : time it took 0.000019
+iteration 4 : time it took 0.000019
+
+testing for n = 60
+iteration 0 : time it took 0.000124
+iteration 1 : time it took 0.000105
+iteration 2 : time it took 0.000105
+iteration 3 : time it took 0.000104
+iteration 4 : time it took 0.000104
+
+testing for n = 100
+iteration 0 : time it took 0.000431
+iteration 1 : time it took 0.000404
+iteration 2 : time it took 0.000403
+iteration 3 : time it took 0.000403
+iteration 4 : time it took 0.000402
+
+testing for n = 128
+iteration 0 : time it took 0.001100
+iteration 1 : time it took 0.001077
+iteration 2 : time it took 0.001078
+iteration 3 : time it took 0.001078
+iteration 4 : time it took 0.001077
+
+testing for n = 120
+iteration 0 : time it took 0.010719
+iteration 1 : time it took 0.000699
+iteration 2 : time it took 0.000689
+iteration 3 : time it took 0.000684
+iteration 4 : time it took 0.000686
+
+testing for n = 240
+iteration 0 : time it took 0.004928
+iteration 1 : time it took 0.014909
+iteration 2 : time it took 0.004812
+iteration 3 : time it took 0.014899
+iteration 4 : time it took 0.004810
+
+testing for n = 480
+iteration 0 : time it took 0.100065
+iteration 1 : time it took 0.100022
+iteration 2 : time it took 0.099631
+iteration 3 : time it took 0.099627
+iteration 4 : time it took 0.099617
+
+testing for n = 960
+iteration 0 : time it took 0.821940
+iteration 1 : time it took 0.453169
+iteration 2 : time it took 0.450945
+iteration 3 : time it took 0.450400
+iteration 4 : time it took 0.453141
+
+testing for n = 1000
+iteration 0 : time it took 0.398793
+iteration 1 : time it took 0.397680
+iteration 2 : time it took 0.397844
+iteration 3 : time it took 0.396059
+iteration 4 : time it took 0.398238
+
+testing for n = 1024
+iteration 0 : time it took 0.906350
+iteration 1 : time it took 0.906186
+iteration 2 : time it took 0.906095
+iteration 3 : time it took 0.906167
+iteration 4 : time it took 0.908244
+
+testing for n = 1920
+iteration 0 : time it took 5.337770
+iteration 1 : time it took 5.329775
+iteration 2 : time it took 5.205431
+iteration 3 : time it took 5.371999
+iteration 4 : time it took 5.287657
+
+testing for n = 2000
+iteration 0 : time it took 3.813553
+iteration 1 : time it took 3.884609
+iteration 2 : time it took 3.882086
+iteration 3 : time it took 3.677631
+iteration 4 : time it took 3.762314
+
+testing for n = 2048
+iteration 0 : time it took 9.051904
+iteration 1 : time it took 9.004142
+iteration 2 : time it took 8.873489
+iteration 3 : time it took 9.029994
+iteration 4 : time it took 8.955731
+
+testing for n = 3840
+iteration 0 : time it took 63.623084
+iteration 1 : time it took 63.904866
+iteration 2 : time it took 63.666942
+iteration 3 : time it took 63.481003
+iteration 4 : time it took 63.499226
+
+testing for n = 4000
+iteration 0 : time it took 68.273019
+iteration 1 : time it took 68.180327
+iteration 2 : time it took 67.986960
+iteration 3 : time it took 68.058601
+iteration 4 : time it took 67.560867
+
+testing for n = 4048
+iteration 0 : time it took 63.793917
+iteration 1 : time it took 64.486867
+iteration 2 : time it took 63.924681
+iteration 3 : time it took 64.064323
+iteration 4 : time it took 65.450693
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@nxt1620>
+Subject: Job 12779157: <inverseMatrix> in cluster <Main_Compute> Done
+
+Job <inverseMatrix> was submitted from host <login7> by user <alireza.safdari> in cluster <Main_Compute>.
+Job was executed on host(s) <nxt1620>, in queue <sn_short>, as user <alireza.safdari> in cluster <Main_Compute>.
+</home/alireza.safdari> was used as the home directory.
+</scratch/user/alireza.safdari/HW_2> was used as the working directory.
+Started at Tue Oct  6 07:16:54 2020
+Results reported on Tue Oct  6 07:35:02 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 1 -R 'select[nxt] rusage[mem=350] span[ptile=1]' -M 350
+#BSUB -J inverseMatrix -o output.%J -L /bin/bash -W 0:20
+##
+##NECESSARY JOB SPECIFICATIONS
+##BSUB -J JobName             # Set the job name to "JobName"
+##BSUB -L /bin/bash           # Uses the bash login shell to initialize the job's execution environment.
+##BSUB -W hh:mm               # Sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm)
+##BSUB -n NNN                 # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "select[node-type]" # Select node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "span[ptile=XX]"    # XX:  number of cores/jobslots per node to use. Also, a node selection criterion.
+##BSUB -R "rusage[mem=nnn]"   # Reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                  # Sets the per process enforceable memory limit to nnn MB
+##BSUB -o OUTPUTFILE.%J       # Send stdout and stderr to "OUTPUTFILE.[jobID]"
+#
+# <--- at this point the current working directory is the one you submitted the job from.
+#
+module load intel/2017A       # load Intel software stack 
+#
+#
+echo "TEST 1"
+export OMP_NUM_THREADS=1
+export  OMP_DISPLAY_ENV="TRUE" 
+./stage2.exe
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1087.57 sec.
+    Max Memory :                                 323 MB
+    Average Memory :                             277.56 MB
+    Total Requested Memory :                     350.00 MB
+    Delta Memory :                               27.00 MB
+    Max Processes :                              4
+    Max Threads :                                5
+
+The output (if any) is above this job summary.
+

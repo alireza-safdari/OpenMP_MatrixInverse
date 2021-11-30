@@ -1,0 +1,218 @@
+TEST 1
+
+OPENMP DISPLAY ENVIRONMENT BEGIN
+   _OPENMP='201511'
+  [host] OMP_CANCELLATION='FALSE'
+  [host] OMP_DEFAULT_DEVICE='0'
+  [host] OMP_DISPLAY_ENV='TRUE'
+  [host] OMP_DYNAMIC='FALSE'
+  [host] OMP_MAX_ACTIVE_LEVELS='2147483647'
+  [host] OMP_MAX_TASK_PRIORITY='0'
+  [host] OMP_NESTED='FALSE'
+  [host] OMP_NUM_THREADS='20'
+  [host] OMP_PLACES: value is not defined
+  [host] OMP_PROC_BIND='false'
+  [host] OMP_SCHEDULE='static'
+  [host] OMP_STACKSIZE='4M'
+  [host] OMP_THREAD_LIMIT='2147483647'
+  [host] OMP_WAIT_POLICY='PASSIVE'
+OPENMP DISPLAY ENVIRONMENT END
+
+
+From process # 16 out of 20!
+From process # 15 out of 20!
+From process # 13 out of 20!
+From process # 0 out of 20!
+From process # 10 out of 20!
+From process # 19 out of 20!
+From process # 2 out of 20!
+From process # 3 out of 20!
+From process # 18 out of 20!
+From process # 1 out of 20!
+From process # 6 out of 20!
+From process # 11 out of 20!
+From process # 12 out of 20!
+From process # 4 out of 20!
+From process # 8 out of 20!
+From process # 17 out of 20!
+From process # 5 out of 20!
+From process # 9 out of 20!
+From process # 14 out of 20!
+From process # 7 out of 20!
+End of testing number of threads!
+
+
+testing for n = 15
+iteration 0 : time it took 0.001283
+iteration 1 : time it took 0.000031
+iteration 2 : time it took 0.000037
+iteration 3 : time it took 0.000030
+iteration 4 : time it took 0.000034
+
+testing for n = 30
+iteration 0 : time it took 0.000240
+iteration 1 : time it took 0.001279
+iteration 2 : time it took 0.000165
+iteration 3 : time it took 0.000142
+iteration 4 : time it took 0.000171
+
+testing for n = 60
+iteration 0 : time it took 0.000227
+iteration 1 : time it took 0.000207
+iteration 2 : time it took 0.000230
+iteration 3 : time it took 0.000062
+iteration 4 : time it took 0.000220
+
+testing for n = 100
+iteration 0 : time it took 0.000497
+iteration 1 : time it took 0.000235
+iteration 2 : time it took 0.000161
+iteration 3 : time it took 0.000264
+iteration 4 : time it took 0.000191
+
+testing for n = 128
+iteration 0 : time it took 0.000240
+iteration 1 : time it took 0.000287
+iteration 2 : time it took 0.000271
+iteration 3 : time it took 0.000176
+iteration 4 : time it took 0.000249
+
+testing for n = 120
+iteration 0 : time it took 0.000273
+iteration 1 : time it took 0.000224
+iteration 2 : time it took 0.000219
+iteration 3 : time it took 0.000179
+iteration 4 : time it took 0.000199
+
+testing for n = 240
+iteration 0 : time it took 0.000308
+iteration 1 : time it took 0.000276
+iteration 2 : time it took 0.000464
+iteration 3 : time it took 0.000296
+iteration 4 : time it took 0.000263
+
+testing for n = 480
+iteration 0 : time it took 0.002393
+iteration 1 : time it took 0.002441
+iteration 2 : time it took 0.002375
+iteration 3 : time it took 0.002381
+iteration 4 : time it took 0.002458
+
+testing for n = 960
+iteration 0 : time it took 0.020377
+iteration 1 : time it took 0.024350
+iteration 2 : time it took 0.023035
+iteration 3 : time it took 0.020891
+iteration 4 : time it took 0.019482
+
+testing for n = 1000
+iteration 0 : time it took 0.017486
+iteration 1 : time it took 0.017418
+iteration 2 : time it took 0.017300
+iteration 3 : time it took 0.017318
+iteration 4 : time it took 0.017352
+
+testing for n = 1024
+iteration 0 : time it took 0.038455
+iteration 1 : time it took 0.037758
+iteration 2 : time it took 0.037805
+iteration 3 : time it took 0.038175
+iteration 4 : time it took 0.038165
+
+testing for n = 1920
+iteration 0 : time it took 0.212026
+iteration 1 : time it took 0.211942
+iteration 2 : time it took 0.212349
+iteration 3 : time it took 0.209384
+iteration 4 : time it took 0.213272
+
+testing for n = 2000
+iteration 0 : time it took 0.145799
+iteration 1 : time it took 0.144237
+iteration 2 : time it took 0.143886
+iteration 3 : time it took 0.146661
+iteration 4 : time it took 0.172362
+
+testing for n = 2048
+iteration 0 : time it took 0.313360
+iteration 1 : time it took 0.305579
+iteration 2 : time it took 0.306417
+iteration 3 : time it took 0.305616
+iteration 4 : time it took 0.307431
+
+testing for n = 3840
+iteration 0 : time it took 2.589449
+iteration 1 : time it took 2.537887
+iteration 2 : time it took 2.499740
+iteration 3 : time it took 2.501156
+iteration 4 : time it took 2.563197
+
+testing for n = 4000
+iteration 0 : time it took 2.699289
+iteration 1 : time it took 2.685344
+iteration 2 : time it took 2.683155
+iteration 3 : time it took 2.699664
+iteration 4 : time it took 2.695072
+
+testing for n = 4048
+iteration 0 : time it took 2.567128
+iteration 1 : time it took 2.568303
+iteration 2 : time it took 2.590892
+iteration 3 : time it took 2.588460
+iteration 4 : time it took 2.579533
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@nxt1736>
+Subject: Job 12779158: <inverseMatrix> in cluster <Main_Compute> Done
+
+Job <inverseMatrix> was submitted from host <login7> by user <alireza.safdari> in cluster <Main_Compute>.
+Job was executed on host(s) <20*nxt1736>, in queue <sn_short>, as user <alireza.safdari> in cluster <Main_Compute>.
+</home/alireza.safdari> was used as the home directory.
+</scratch/user/alireza.safdari/HW_2> was used as the working directory.
+Started at Tue Oct  6 07:19:04 2020
+Results reported on Tue Oct  6 07:19:56 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -n 20 -R 'select[nxt] rusage[mem=350] span[ptile=20]' -M 350
+#BSUB -J inverseMatrix -o output.%J -L /bin/bash -W 0:20
+##
+##NECESSARY JOB SPECIFICATIONS
+##BSUB -J JobName             # Set the job name to "JobName"
+##BSUB -L /bin/bash           # Uses the bash login shell to initialize the job's execution environment.
+##BSUB -W hh:mm               # Sets job's runtime wall-clock limit in hours:minutes or just minutes (-mm)
+##BSUB -n NNN                 # NNN: total number of cores/jobslots to allocate for the job
+##BSUB -R "select[node-type]" # Select node-type: nxt, mem256gb, gpu, phi, mem1t, mem2t ...
+##BSUB -R "span[ptile=XX]"    # XX:  number of cores/jobslots per node to use. Also, a node selection criterion.
+##BSUB -R "rusage[mem=nnn]"   # Reserves nnn MBs per process/CPU for the job
+##BSUB -M mm                  # Sets the per process enforceable memory limit to nnn MB
+##BSUB -o OUTPUTFILE.%J       # Send stdout and stderr to "OUTPUTFILE.[jobID]"
+#
+# <--- at this point the current working directory is the one you submitted the job from.
+#
+module load intel/2017A       # load Intel software stack 
+#
+#
+echo "TEST 1"
+export OMP_NUM_THREADS=20
+export  OMP_DISPLAY_ENV="TRUE" 
+./stage2.exe
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   921.37 sec.
+    Max Memory :                                 308 MB
+    Average Memory :                             253.62 MB
+    Total Requested Memory :                     7000.00 MB
+    Delta Memory :                               6692.00 MB
+    Max Processes :                              4
+    Max Threads :                                24
+
+The output (if any) is above this job summary.
+
